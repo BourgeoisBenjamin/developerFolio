@@ -5,14 +5,20 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: false // set to false to use static SVG
 };
 
 const greeting = {
-  username: "Benjamin Bourgeois",
+  username: "",
   title: "Hi all, I'm Benjamin",
   subTitle: emoji(
-    "A passionate Full Stack Developer 🚀 Head manager of Junior Conseil Taker Nantes 👨‍🏫 Student at Epitech - European Institute of Technology 👨‍🎓 "
+    "💻 A passionate Full Stack Developer"
+  ),
+  subTitle2: emoji(
+      "🚀 Chief Information Officer and Regional Head manager of Junior Conseil Taker"
+  ),
+  subTitle3: emoji(
+      "👨‍🏫 Student at Epitech - European Institute of Technology"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1d0p1PvFBTD8B6ixkOL_M8zctIIPUEVIn/view?usp=sharing",
@@ -22,13 +28,14 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/BourgeoisBenjamin",
+  linkedin: "https://www.linkedin.com/in/bourgeoisbenjamin/",
+  gmail: "benjishift@gmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
+  twitter: "https://twitter.com/benjamin_brgs",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -105,7 +112,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -359,8 +366,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: null,
+  email_address: "contact@benjaminbourgeois.com"
 };
 
 // Twitter Section

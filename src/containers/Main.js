@@ -22,11 +22,14 @@ export default class Main extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isDark: false
+      isDark: true,
+      defaultDark: true
     };
   }
 
   componentDidMount() {
+    if (this.state.defaultDark)
+      return;
     if (localStorage.getItem("isDark") === null) {
       const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
       localStorage.setItem("isDark", darkPref.matches);
