@@ -12,9 +12,11 @@ import {
   talkSection,
   achievementSection
 } from "../../portfolio";
+import Education from "../../containers/education/Education";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
+  const viewEducation = Education.display;
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -43,6 +45,11 @@ function Header() {
             <li>
               <a href="#skills">Skills</a>
             </li>
+          )}
+          {viewExperience && (
+              <li>
+                <a href="#education">Education</a>
+              </li>
           )}
           {viewExperience && (
             <li>
