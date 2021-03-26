@@ -12,13 +12,13 @@ const greeting = {
   username: "",
   title: "Hi all, I'm Benjamin",
   subTitle: emoji(
-    "💻 Développeur Full Stack passioné"
+    "💻 A passionate Full Stack Developer"
   ),
   subTitle2: emoji(
-      "🚀 Directeur des systèmes d'informations et Responsable régional de Junior Conseil Taker"
+      "🚀 Chief Information Officer and Regional Head manager of Junior Conseil Taker"
   ),
   subTitle3: emoji(
-      "👨‍🏫 Etudiant à Epitech - European Institute of Technology"
+      "👨‍🏫 Student at Epitech - European Institute of Technology"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1d0p1PvFBTD8B6ixkOL_M8zctIIPUEVIn/view?usp=sharing",
@@ -30,7 +30,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/BourgeoisBenjamin",
   linkedin: "https://www.linkedin.com/in/bourgeoisbenjamin/",
-  gmail: "contact@benjaminbourgeois.com",
+  gmail: "benjishift@gmail.com",
   gitlab: "",
   facebook: "",
   medium: "",
@@ -123,21 +123,21 @@ const educationInfo = {
     {
       schoolName: "Epitech - European Institute of Technology",
       logo: require("./assets/images/epitechLogo.png"),
-      subHeader: "Master - Expert en Technologies de l’information",
+      subHeader: "Master of Computer Science",
       duration: "2018 - 2023",
-      desc: "Enseignement et développement de compétences techniques (développement informatique, gestion de projet, etc)",
+      desc: "Develop my computer and soft skills.",
       descBullets: [
         "C, C++, Java, React, Node, Docker, ...",
-        "Création de l'antenne nantaise de Junior Conseil Taker"
+        "Creation of the Junior Conseil Taker office in Nantes"
       ]
     },
     {
       schoolName: "Dublin City University",
       logo: require("./assets/images/dcuLogo.png"),
-      subHeader: "Année d'étude à l'étranger, cursus : Computer Science",
+      subHeader: "Abroad year in Computer Science",
       duration: "2021 - 2022",
       desc:
-        "Étude à l'étranger afin de découvrir l'aspect international.",
+        "Study abroad year to give me an international perspective.",
       descBullets: []
     }
   ]
@@ -170,28 +170,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Directeur des systèmes d'informations et responsable régional",
+      role: "Chief Engineer Officer & Regional Manager",
       company: "Junior Conseil Taker",
       companylogo: require("./assets/images/takerLogoWhite.png"),
-      date: "2019 – Présent",
+      date: "2019 – Present",
       desc:
-        "Taker est une structure associative d’étudiants d'Epitech proposant aux entreprises de faire développer leurs projets informatiques par des étudiants. Ces derniers sont sélectionnés pour leurs motivations et compétences.",
+        "Taker is an associative structure of Epitech students proposing to companies to have their IT projects developed by students. The latter are selected for their motivation and skills.",
       descBullets: [
-        "Calculer, superviser et participer aux objectifs IT de la structure",
-        "Chef de projet : Planifification, execution, suivi, contrôle et rendu de projets."
+        "Communicating, Calculating, Supervising the IT goals of the company",
+        "Project managers : lead role in planning, executing, monitoring, controlling and closing projects."
       ]
     },
     {
-      role: "Développeur Back-end et Devops (stage)",
+      role: "Back-end and Devops internship",
       company: "Cristal Union",
       companylogo: require("./assets/images/cristalUnionLogo.png"),
-      date: "Août 2019 – Décembre 2018",
+      date: "August 2019 – December 2018",
       desc:
-        "Cristal Union est un groupe coopératif agro-industriel parmi les premiers producteurs européens de sucre et d’alcool.",
+        "Cristal Union is an agro-industrial cooperative group and one of Europe's leading producers of sugar and alcohol.",
       descBullets: [
-        "Migration de webservices (API et IHM) et push sur le cloud provider.",
-        "Migration d'IHM sous webpack.",
-        "Etude de remplacement d'un framework de websocket au sein d'un logiciel existant."
+        "Migration of webservices (API and HCI) under Docker and in a cloud provider.",
+        "Migration of HCI under webpack.",
+        "Study of websocket alternative for an old webapp."
       ]
     }
   ]
@@ -360,9 +360,9 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contactons-nous ☎️"),
+  title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuter à propos d'un projet ou juste pour dire bonjour ? Ma boite mail est ouverte à tout le monde.",
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: null,
   email_address: "contact@benjaminbourgeois.com"
 };
